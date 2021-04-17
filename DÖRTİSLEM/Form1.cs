@@ -31,7 +31,7 @@ namespace DÖRTİSLEM
 
 
 
-            int cıkarma = x - y; yandal1 Bizim eklediğimiz kod
+            int cıkarma = x - y; 
             MessageBox.Show("cıkarma" + cıkarma);
         }
     }
