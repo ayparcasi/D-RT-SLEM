@@ -28,6 +28,11 @@ namespace DÖRTİSLEM
             int y = Convert.ToInt32(textBox2.Text.ToString());
             int toplam = x + y;
             MessageBox.Show("" + toplam);
+
+
+
+            int cıkarma = x - y; yandal1 Bizim eklediğimiz kod
+            MessageBox.Show("cıkarma" + cıkarma);
         }
     }
 }
