@@ -29,6 +29,11 @@ namespace DÖRTİSLEM
             int toplam = x + y;
             MessageBox.Show("" + toplam);
 
+
+
+            int cıkarma = x - y; 
+            MessageBox.Show("cıkarma" + cıkarma);
+
             int bolme = x / y; 
             MessageBox.Show("" + bolme);
         }
