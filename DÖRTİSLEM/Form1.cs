@@ -16,5 +16,18 @@ namespace DÖRTİSLEM
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int x = Convert.ToInt32(textBox1.Text.ToString());
+            int y = Convert.ToInt32(textBox2.Text.ToString());
+            int toplam = x + y;
+            MessageBox.Show("" + toplam);
+        }
     }
 }
